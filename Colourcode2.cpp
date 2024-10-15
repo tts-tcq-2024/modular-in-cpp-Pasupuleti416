@@ -1,5 +1,4 @@
-#include<assert.h>
-#include<iostream.h>
+#include <colourcode.h>
 namespace TelCoColorCoder 
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
@@ -37,7 +36,6 @@ namespace TelCoColorCoder
                 return colorPairStr;
             }
     };
-
     ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
